@@ -1,0 +1,50 @@
+#navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color:#ffe4c4;
+}
+
+#navbar>div:last-child {
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    border:3px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+#container > div > img{
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+#container > div > p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#container > div > h3{
+    text-align: center;
+}
+
+#container > div > h4{
+    text-align: center;
+}
+
+h3{
+    cursor: pointer;
+}
